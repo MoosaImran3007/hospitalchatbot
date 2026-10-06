@@ -1,0 +1,35 @@
+[project]
+name = "dify"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MoosaImran3007", email = "167539212+MoosaImran3007@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "email-validator>=2.3.0",
+    "fastapi>=0.141.1",
+    "mem0ai>=2.2.1",
+    "passlib[bcrypt]>=1.7.4",
+    "psycopg2-binary>=2.9.13",
+    "python-dotenv>=1.2.3",
+    "python-jose[cryptography]>=3.5.0",
+    "python-multipart>=0.0.32",
+    "requests>=2.34.2",
+    "resend>=2.49.1",
+    "uvicorn>=0.54.0",
+    "websockets>=15,<16",
+]
+
+[project.scripts]
+dify = "dify:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.workspace]
+members = [
+    "backend",
+]

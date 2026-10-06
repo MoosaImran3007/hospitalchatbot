@@ -1,0 +1,41 @@
+{
+  "user_id": "Moosa",
+  "questions_and_answers": [
+    {
+      "question_id": 1,
+      "question": "How often do you feel stressed?",
+      "answer": "Often"
+    },
+    {
+      "question_id": 2,
+      "question": "How would you describe your sleep?",
+      "answer": "Poor"
+    },
+    {
+      "question_id": 3,
+      "question": "How often do you feel socially isolated?",
+      "answer": "Sometimes"
+    }
+  ],
+  "report": {
+    "summary": "The assessment indicates that the individual experiences frequent stress, poor sleep quality, and occasional feelings of social isolation.",
+    "observed_patterns": [
+      "The individual reports feeling stressed often.",
+      "Sleep quality is described as poor.",
+      "There are instances of feeling socially isolated, but not frequently."
+    ],
+    "stress_and_emotional_wellbeing": "The individual experiences stress often, which may impact overall emotional wellbeing.",
+    "sleep_and_daily_routine": "The quality of sleep is reported as poor, suggesting potential difficulties in maintaining a healthy daily routine.",
+    "social_and_interpersonal_wellbeing": "The individual feels socially isolated sometimes, indicating a need for social engagement.",
+    "areas_for_attention": [
+      "Stress management strategies.",
+      "Improving sleep quality.",
+      "Enhancing social connections."
+    ],
+    "recommendations": [
+      "Consider exploring stress reduction techniques such as mindfulness or relaxation exercises.",
+      "Evaluate sleep hygiene practices and make necessary adjustments to improve sleep quality.",
+      "Engage in social activities or groups to reduce feelings of isolation."
+    ]
+  }
+}
